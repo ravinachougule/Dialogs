@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DialogsJava</string>
+    <string name="btnAlert">Alert</string>
+    <string name="btnDTPick">Date Picker</string>
+    <string name="btnTmPick">Time Picker</string>
+    <string name="btnProgress">Progress</string>
+    <string name="btnCustom">Custom</string>
+    <string name="title">Alert</string>
+    <string name="msg">This is alert dialog</string>
+    <string name="btnYes">Yes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnNo">No</string>
+    <string name="edtUname">User Name</string>
+    <string name="btnOk">OK</string>
+</resources>

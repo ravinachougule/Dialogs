@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dialogsjava.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAlert"
+        android:onClick="alert"/>
+
+    <Button
+        android:id="@+id/btnDtPick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDTPick"
+        android:onClick="datePicker"/>
+
+    <Button
+        android:id="@+id/btnTmPick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTmPick"
+        android:onClick="timePicker"/>
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnProgress"
+        android:onClick="progress"/>
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCustom"
+        android:onClick="custom"/>
+
+
+</LinearLayout>
