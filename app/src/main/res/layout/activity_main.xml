@@ -6,13 +6,50 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.dialogsdemo.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnAlert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="41dp"
+        android:text="Alert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="Date Picker"
+        app:layout_constraintStart_toStartOf="@+id/btnAlert"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlert" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Time Picker"
+        app:layout_constraintStart_toStartOf="@+id/btnDate"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate" />
+
+    <Button
+        android:id="@+id/btnProg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        android:text="Progress"
+        app:layout_constraintBottom_toTopOf="@+id/btnCust"
+        app:layout_constraintStart_toStartOf="@+id/btnCust" />
+
+    <Button
+        android:id="@+id/btnCust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="134dp"
+        android:text="Custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
